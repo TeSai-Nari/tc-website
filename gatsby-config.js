@@ -3,5 +3,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "tc-website",
   },
-  plugins: ["gatsby-plugin-styled-components"],
+  plugins: [
+    "gatsby-plugin-styled-components"
+  ],
 };

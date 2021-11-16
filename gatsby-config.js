@@ -4,6 +4,10 @@ module.exports = {
     title: "tc-website",
   },
   plugins: [
-    "gatsby-plugin-styled-components"
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-anchor-links",
+    {
+      resolve: "gatsby-plugin-anchor-links",
+    },
   ],
 };

@@ -21,6 +21,10 @@ const CountItem = styled.div`
 
   &:hover {
     background-image: linear-gradient(180deg, #27272E 0%, #303035 100%);
+    cursor: pointer;
+  }
+  h2{
+    color:${({theme})=>theme.colors.purple};
   }
 `
 export default function CounterNumber(props) {

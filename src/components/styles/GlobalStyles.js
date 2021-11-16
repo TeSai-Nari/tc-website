@@ -31,6 +31,11 @@ export const GlobalStyles = createGlobalStyle`
     color: #D3D3D4;
   }
 
+  label {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+
   h1 {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -144,5 +149,16 @@ export const GlobalStyles = createGlobalStyle`
 
   .text-align-right {
     text-align: right;
+  }
+
+  input {
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-radius: 16px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+
+    height: 54px;
+    color: white; 
   }
 `

@@ -15,7 +15,8 @@ const theme = {
     white: "#ffffff",
     grey: "#D3D3D4",
     red: "#C75C6F",
-    yellow: "FFDC60",
+    purple: "#5956e9",
+    yellow: "#FFDC60",
   },
   breakpoints: {
     mobileUp: "only screen and {min-width: 320px}",
@@ -29,7 +30,7 @@ export default function Layout({ children }) {
     <ThemeProvider theme={ theme }>
       <GlobalStyles />
       <Navbar/>
-      <div>{ children }</div>
+      { children }
       <Footer/>
     </ThemeProvider>
   )
